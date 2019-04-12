@@ -1,3 +1,6 @@
+// PracticeA - はじめてのあっとこーだー（Welcome to AtCoder）
+// https://atcoder.jp/contests/abs/tasks/practice_1
+
 #include <stdio.h>
 
 int main()

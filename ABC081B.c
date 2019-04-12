@@ -1,3 +1,6 @@
+// ABC081B - Shift only
+// https://atcoder.jp/contests/abs/tasks/abc081_b
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
