@@ -9,21 +9,18 @@ int main() {
 	scanf("%d", &X);
 	
 	for(int a = 0; a <= A; a++) {
-		int sumA = a * 500;
+		int sumA = 500 * a;
 		if(sumA > X){
 			break;
 		}
 		for(int b = 0; b <= B; b++) {
-			int sumAB = sumA + b * 100;
+			int sumAB = sumA + 100 * b;
 			if(sumAB > X){
 				break;
 			}
-			for(int c = 0; c <= C; c++) {
-				int sumABC = sumAB + c * 50;
-				if(sumABC == X) {
-					result++;
-					break;
-				}
+			
+			if(sumAB <= X && X <= sumAB + 50 * C) {
+				result++;
 			}
 		}
 	}
